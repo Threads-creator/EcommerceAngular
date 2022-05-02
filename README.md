@@ -1,6 +1,8 @@
 # EcommerceAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0. For start project run json-server first, use `npx json-server bd.json`. Json-server simulate REST API getting data from `db.json`. Next, run angular application, use `npm start`. 
+
+
 
 ## Development server
 
