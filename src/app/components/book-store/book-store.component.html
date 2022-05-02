@@ -1,0 +1,8 @@
+ <div class="row background">
+  <div class="col-md-3 ">
+    <app-filters [books]="books" (booksFiltered)="filterActived($event)"></app-filters>
+  </div>
+  <div class="col-md-9 ">
+    <app-product-list [books]="books"></app-product-list>
+  </div>
+</div>

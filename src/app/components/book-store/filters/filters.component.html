@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="card-header">
+    <h1 class="card-title">Filtros</h1>
+  </div>
+  <div class="card-body">
+
+    <form class="form-group">
+      <label for="de">De</label>
+      <input type="number" name="de" id="de" class="form-control" min="0" [formControl]="formDe">
+
+      <label for="ate">Até</label>
+      <input type="number" name="ate" id="ate" class="form-control" min="0" [formControl]="formAte">
+
+      <label for="genero">Genero</label>
+      <select name="genero" id="genero"  class="form-control" [formControl]="formCategoria">
+        <option [value]="genero" *ngFor="let genero of generos">{{ genero }}</option>
+      </select>
+    </form>
+
+    <button class="btn btn-success btn-sm mt-2 float-end" (click)="filterBooks()" >Filtrar</button>
+    <button class="btn btn-danger btn-sm mt-2 float-start" (click)="resetFilters()" >Reset</button>
+  </div>
+
+</div>

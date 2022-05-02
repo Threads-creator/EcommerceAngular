@@ -1,0 +1,44 @@
+{
+  "Books": [
+    {
+      "id": "1",
+      "name": "Senhor dos Anéis",
+      "price": 200.0,
+      "quantity": 15,
+      "category": "Fantasia",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/71Xl6pR0k9L.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Harry Potter",
+      "price": 150.0,
+      "quantity": 25,
+      "category": "Fantasia",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/81PHloIwKnL.jpg"
+    },
+    {
+      "id": "3",
+      "name": "CyperPunk 2077",
+      "price": 300.0,
+      "quantity": 10,
+      "category": "Ficção Científica",
+      "img": "https://sm.ign.com/ign_br/screenshot/default/neuromancer_h19c.jpg"
+    },
+    {
+      "id": "4",
+      "name": "A Assombração da Casa da Colina",
+      "price": 100.0,
+      "quantity": 12,
+      "category": "Suspense",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/51bGKMw02jL._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "O Sobreviente",
+      "price": 200.0,
+      "quantity": 30,
+      "category": "Ação",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/91yH1SUBLTL.jpg"
+    }
+  ]
+}
